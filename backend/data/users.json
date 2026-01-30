@@ -1,0 +1,17 @@
+[
+    {
+        "id": "u-99",
+        "email": "prod-house@studio.com",
+        "tier": "Business"
+    },
+    {
+        "id": "u-100",
+        "email": "creator@gmail.com",
+        "tier": "Free"
+    },
+    {
+        "id": "u-101",
+        "email": "creator@gmail.com",
+        "tier": "Free"
+    }
+]

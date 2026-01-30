@@ -1,0 +1,131 @@
+.dashboard {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard h1 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  height: 70%;
+  padding-left: 1rem;
+}
+
+.sessions-table {
+  width: auto;
+  min-width: 800px;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+}
+
+.sessions-table thead {
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.sessions-table th {
+  padding: 1.25rem 2rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  letter-spacing: 0.025em;
+  color: #6b7280;
+  text-transform: none;
+}
+
+.sessions-table tbody tr {
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.sessions-table td {
+  padding: 1.25rem 2rem;
+  color: #111827;
+  font-size: 0.9375rem;
+}
+
+.priority-high {
+  background: #fee2e2;
+  color: #dc2626;
+  padding: 0.375rem 0.875rem;
+  border-radius: 6px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  display: inline-block;
+  letter-spacing: 0.015em;
+}
+
+.priority-normal {
+  background: #d1fae5;
+  color: #059669;
+  padding: 0.375rem 0.875rem;
+  border-radius: 6px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  display: inline-block;
+  letter-spacing: 0.015em;
+}
+
+.no-data {
+  text-align: center;
+  color: #9ca3af;
+  margin-top: 3rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.success-message {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #d4edda;
+  color: #059669;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #fee2e2;
+  color: #dc2626;
+  border: 1px solid #fecaca;
+  border-radius: 4px;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
